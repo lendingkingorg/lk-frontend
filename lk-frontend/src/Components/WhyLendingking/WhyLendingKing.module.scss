@@ -1,0 +1,121 @@
+
+.parentWhyLendingKing{
+    background-color: white;
+}
+
+.textTop{
+    color: var(--575-b-6-d, #575B6D);
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 133%; /* 29.26px */
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+.bigTextContainer{
+    text-align: center;
+font-family: Montserrat;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 125% */
+
+}
+
+.bigText{
+    background: var(--Linear, linear-gradient(120deg, #0057FF 0%, #00F5B5 95.4%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 30px;
+}
+
+.secondPortion{
+    color:black;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.buttonContainer{
+    display: inline-flex;
+    gap: 34px;
+    flex-direction: row;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.startLoanButton{
+    margin:0;
+    border-radius: 9px;
+background: var(--Linear, linear-gradient(120deg, #0057FF 0%, #00F5B5 95.4%));
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height:normal;
+
+width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startLoanButton:hover{
+    cursor: pointer;
+}
+
+.bulletPoints{
+    display: inline-flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 90px;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 100px;
+
+}
+
+.bulletPoint{
+    color: var(--575-b-6-d, #575B6D);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 133.5%; /* 32.04px */
+}
+
+.greenDot{
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+    margin-bottom: -40px;
+}
+
+.rocket{
+    width: 33.685px;
+height: 45.051px;
+transform: rotate(17.21deg);
+
+// position: absolute;
+// right: 121.494px;
+// bottom: 4px;
+}
+
+
+.mobiles{
+    width: 932px;
+height: 783.5px;
+flex-shrink: 0;
+margin-left:500px;
+margin-top:100px;
+margin-bottom:100px;
+}

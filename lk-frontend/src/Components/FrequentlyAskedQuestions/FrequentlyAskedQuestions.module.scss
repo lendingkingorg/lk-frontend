@@ -1,0 +1,33 @@
+
+
+.faqContainer{
+    display: flex;
+    padding: 42px 150px 50px 150px;
+    flex-direction: column;
+    align-items: center;
+    background: var(--Blue-5, #F4F9FF);
+    margin-top: 100px;
+    // width: 1708px;
+    margin-left: 10px 
+}
+
+.heading{
+    color: var(--www-tatanexarc-com-violet, #1B0B39);
+text-align: center;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 97.222% */
+letter-spacing: -0.36px;
+text-transform: capitalize;
+margin-bottom:50px;
+}
+
+.qna{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 39.99px;
+align-self: stretch;
+}

@@ -1,0 +1,30 @@
+/* LendingKing.css */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.LendingKing-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.LendingKing-section h2 {
+  color: #154379;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 44px;
+}
+
+/* .LendingKing-section {
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: medium;
+  color: #415b79;
+} */
+
+.LendingKing-section p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: medium;
+  color: #415b79;
+}

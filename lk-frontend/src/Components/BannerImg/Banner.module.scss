@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.bannerImage{
+    width: 30rem;
+    height: 40rem;
+    margin: 0px;
+    padding: 0px;
+    color: red;
+flex-shrink: 0;
+position: absolute;
+// z-index: 1;
+left:20%;
+// width: 100%;
+// height: 100%;
+margin-left:69%;
+// top:-25px;
+
+
+}
+
+.heroParent{
+    display:flex;
+    height:49rem;
+    background-color: white;
+    
+}
+
+.bannerText{
+font-family: 'Montserrat', sans-serif;
+margin-top:50px;
+margin-left:100px;
+color: #000;
+font-family: Montserrat;
+font-size: 50px;
+font-style: normal;
+font-weight: bolder;
+line-height: 90px; /* 160% */
+letter-spacing: 2px;
+word-spacing: 1px;
+// z-index: 1;
+
+
+.smartAndBig{
+    background: var(--Linear, linear-gradient(120deg, #0057FF 0%, #00F5B5 95.4%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left:7px;
+    margin-right:7px;
+    
+    }
+}
+
+.alignText{
+    display:flex;
+    
+}
+
+
+.bannerParent{
+    display: flex;
+    margin-top:50px;
+}
+
+
+
+.caption{
+margin-top:10px;
+margin-bottom: 40px;
+color: var(--575-b-6-d, #575B6D);
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.applybtn{ 
+    margin:0;
+    border-radius: 9px;
+background: var(--Linear, linear-gradient(120deg, #0057FF 0%, #00F5B5 95.4%));
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height:normal;
+
+width: 14rem;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.applybtn:hover{
+    cursor: pointer;
+}
+
+.buttonsOnBanner{
+
+display: flex;
+align-items: center;
+gap: 42px;   
+align-items: flex-start; 
+}
+
+
+// .gearImage{
+//     width: 316px;
+// height: 314px;
+// flex-shrink: 0;
+// position: absolute;
+// margin-left: 185%;
+// }
+
+.imageContainer{
+    position: relative;
+    width: 15%;
+    // height: 200px;
+    margin-top:50px;
+    
+}
+
+
+.flowerAndText{
+    position:relative;
+    margin-left:30px;
+    margin-top:60px;
+}
+
+// .flower{
+//     width:25%;
+//     position:absolute;
+//   z-index: 0;
+//   top:-85px;
+// }

@@ -1,0 +1,86 @@
+/* Testimonials.css */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  max-width: 1140px;
+  padding: 0px 15px 0px 15px;
+}
+
+.cards-wrapper {
+  display: flex;
+  transition: transform 2s ease-in-out; /* Transition effect on the wrapper */
+}
+
+.card {
+  flex: 0 0 31%; /* Adjusted to approximately 33.33% to allow for spacing */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.card.active {
+  transform: translateX(0); /* Slide in the active card */
+}
+
+.quotes-image,
+.trusted-image {
+  /* width: 20px;
+  height: 20px; */
+   max-width: 100%;
+  height: auto;
+}
+
+.customer-info {
+  margin-top: 10px;
+  font-style: italic;
+  color: #415b79;
+  display: flex;
+  font-size: 18px;
+  font-weight: medium;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+/* Updated styles for smaller screens */
+@media screen and (max-width: 767px) {
+  .cards-wrapper {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards in the container */
+  }
+  .disclamer {
+    margin-top: 150px;
+  }
+
+ 
+}

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.simpleApplicationProcess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  padding: 20px;
+  background-color:white;
+  position:relative;
+}
+
+.stepsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.center{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    font-size: 44px;
+    font-weight: 700;
+    // margin-top: -290px;
+    margin-bottom: 20px 
+}
+
+.step {
+  text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    max-width: 20%;
+    width: 100%;
+   
+}
+
+.step:hover {
+  transform: translateY(-5px);
+}
+
+.stepNumber {
+//   background-color: #0046FF;
+//   color: #fff;
+//   border-radius: 50%;
+//   width: 30px;
+//   height: 30px;
+//   line-height: 30px;
+//   font-size: 16px;
+//   margin-bottom: 10px;
+
+
+  background-color: #0046FF;
+    color: #fff;
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    line-height: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-left:135px;
+}
+/* .step-label{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+
+.numbers{
+    padding:15px;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: 'Poppins';
+  font-weight: medium;
+  color: #1C2575;
+}
+
+.h2 {
+  color: #154379;
+  font-family: 'poppins';
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: medium;
+  color: #415b79;
+
+}
+
+.timeButton {
+  color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0px 0px 0px 10px;
+    margin-left: auto;
+    border-radius: 22px;
+    background: var(--blue-4, #D5E8FF);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: auto;
+}
+
+
+.time-button:hover {
+  background-color: #45a049;
+  
+}
+
+/* Media query for screens smaller than 768px (adjust as needed) */
+@media (max-width: 768px) {
+  .step {
+    margin: 10px 0;
+  }
+}
+
+.bgImg{
+    width: 100%;
+height: 815%;
+flex-shrink: 0;
+background-image: url(BgImg.png);
+position:absolute;
+
+}
+
+// .bgImgContainer{
+// width:100%;
+// // position:absolute;
+
+// }
+
+.clock{
+  width: 13px;
+height: 13px;
+flex-shrink: 0;
+}
+
+.headingAndCards{
+  // position:absolute;
+  margin-bottom:50px;
+  position:absolute;
+  margin-top:50px;
+}
