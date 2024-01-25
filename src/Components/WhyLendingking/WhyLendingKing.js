@@ -27,6 +27,8 @@ const WhyLendingKing = () => {
 
                 <div className={classes.bulletPoints}>
 
+                 
+
                     <div><img src={GreenDot} alt="" className={classes.greenDot} />
                     <div className={classes.bulletPoint}>Multiple lenders</div></div>
 
@@ -35,6 +37,9 @@ const WhyLendingKing = () => {
 
                     <div><img src={GreenDot} alt="" className={classes.greenDot} />
                     <div className={classes.bulletPoint}>Transparent processing</div></div>
+
+                    
+                    
 
                     <div><img src={GreenDot} alt="" className={classes.greenDot} />
                     <div className={classes.bulletPoint}>Superfast processing</div></div>
