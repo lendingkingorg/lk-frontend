@@ -18,7 +18,8 @@ const PartnersSlider = () => {
     <div className={classes.main}>
       <div className={classes.heading}>Our Partners</div>
       <div className={classes.fader}></div>
-      <div className={classes.marquee}>
+      <div className={classes.fader1}>
+      <div style={{width:"80rem"}} className={classes.marquee}>
         <div className={classes.marqueeContent}>
           {partnerLogos.map((logo, index) => (
             <div key={index} className={classes.marqueeItem}>
@@ -30,6 +31,7 @@ const PartnersSlider = () => {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </div>
    

@@ -26,14 +26,18 @@ import JoinUsKnowMore from '../JoinUsKnowMore/JoinUsKnowMore';
 import MobileApp from '../MobileApp/MobileApp';
 import CreditScore from '../CreditScore/CreditScore';
 import FormElement from "../FormElement/FormElement.js";
+import classes from "../Footer/Footer.module.scss"
 
 
 function HomePage() {
     return (
         <div className="main-container">
+
             <CreditScore/>
+            <div className={classes.Backgroundscreen}>
             <BannerImg/>
             <WhyLendingking/>
+            </div>
             <PartnersSlider/>
             <SimpleApplicationProcess/>
             {/* <EmiCalculator/> */}

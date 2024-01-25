@@ -1,22 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-.bannerImage{
-    width: 34rem;
-    height: 40rem;
-    margin: 0px;
-    padding: 0px;
-    color: red;
-    flex-shrink: 0;
-    position: absolute;
-    left: 20%;
-    margin-left: 55%;
 
-
-}
 
 .heroParent{
     display:flex;
-    height:49rem;
+    justify-content: space-between;
     background-color: white;
     
 }
@@ -113,8 +101,8 @@ align-items: flex-start;
 // }
 
 .imageContainer{
-    position: relative;
-    width: 15%;
+   // position: relative;
+  //  width: 15%;
     // height: 200px;
     margin-top:50px;
     

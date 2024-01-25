@@ -25,27 +25,28 @@ const WhyLendingKing = () => {
                     <div className={classes.startLoanButton}>Start Loan</div>
                 </div>
 
-                <div className={classes.bulletPoints}>
-
-                 
-
-                    <div><img src={GreenDot} alt="" className={classes.greenDot} />
-                    <div className={classes.bulletPoint}>Multiple lenders</div></div>
+                
+                  <div className={classes.first}>
+                    <div>
+                    <img src={GreenDot} alt="" className={classes.greenDot} />
+                    <div className={classes.bulletPoint}>Multiple lenders</div>
+                    </div>
 
                     <div><img src={GreenDot} alt="" className={classes.greenDot} />
                     <div className={classes.bulletPoint}>100% Digital Verification</div></div>
 
                     <div><img src={GreenDot} alt="" className={classes.greenDot} />
                     <div className={classes.bulletPoint}>Transparent processing</div></div>
-
-                    
-                    
-
+</div>
+<div className={classes.second}>
                     <div><img src={GreenDot} alt="" className={classes.greenDot} />
                     <div className={classes.bulletPoint}>Superfast processing</div></div>
 
                     <div><img src={GreenDot} alt="" className={classes.greenDot} />
                     <div className={classes.bulletPoint}>No Collaterals Required</div></div>
+
+                    
+
 
                 </div>
                 

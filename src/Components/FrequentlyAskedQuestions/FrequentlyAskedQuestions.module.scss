@@ -1,14 +1,14 @@
 
 
 .faqContainer{
-    display: flex;
-    padding: 42px 150px 50px 150px;
-    flex-direction: column;
-    align-items: center;
+    // display: flex;
+    // padding: 42px 150px 50px 150px;
+    // flex-direction: column;
+    // align-items: center;
     background: var(--Blue-5, #F4F9FF);
     margin-top: 100px;
     // width: 1708px;
-    margin-left: 10px 
+    // margin-left: 10px 
 }
 
 .heading{
@@ -24,10 +24,11 @@ text-transform: capitalize;
 margin-bottom:50px;
 }
 
-.qna{
-    display: flex;
-flex-direction: column;
-align-items: center;
-gap: 39.99px;
-align-self: stretch;
+.qna{    display: flex;
+    justify-content: center;
+//     display: flex;
+// flex-direction: column;
+// align-items: center;
+// gap: 39.99px;
+// align-self: stretch;
 }

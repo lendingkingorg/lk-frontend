@@ -9,7 +9,9 @@ const Testimonials = () =>{
        
             <div className={classes.container}>
                 <div className={classes.main}>
-                <div className={classes.heading}>We Care About Our Customers Experience Too</div>
+                <div className={classes.heading}>We Care About Our Customers</div>
+                <div className={classes.heading}>
+                 Experience Too</div>
                 <div className={classes.cardContainer}>
                     <div className={classes.cardOne}>
                         <div className={classes.comma}><Comma/></div>

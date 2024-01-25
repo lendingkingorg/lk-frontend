@@ -2,6 +2,12 @@
 .parentWhyLendingKing{
     background-color: white;
 }
+.first{    display: flex;
+    justify-content: space-evenly;
+padding-bottom: 10px;}
+.second{
+    display: flex;
+    justify-content: space-evenly;}
 
 .textTop{
     color: var(--575-b-6-d, #575B6D);
@@ -44,11 +50,13 @@ margin-top: 30px;
 }
 
 .buttonContainer{
-    display: inline-flex;
-    gap: 34px;
-    flex-direction: row;
-    margin-left: 700px;
-    margin-top: 50px;
+    display: flex;
+    /* display: inline-flex; */
+    gap: 60px;
+    /* flex-direction: row; */
+    /* margin-left: 700px; */
+    /* margin-top: 50px; */
+    justify-content: center;
 }
 
 .startLoanButton{
@@ -112,11 +120,8 @@ transform: rotate(17.21deg);
 
 
 .mobiles{
-    width: 932px;
-height: 783.5px;
-flex-shrink: 0;
-margin-left:500px;
-margin-top:100px;
+display: flex;
+justify-content: center;
 }
 
 

@@ -52,7 +52,7 @@ export default function CustomizedAccordions() {
   };
 
   return (
-    <div>
+    <div style={{width:"80%"}}>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header" sx={{backgroundColor:"aliceblue"}}>
           <Typography className={classes.question} sx={{ fontWeight: 'bold' , fontFamily: "'Poppins', sans-serif"}}>What is Tata nexarc Business Loans?</Typography>

@@ -29,17 +29,16 @@ const RequiredDocuments = () => {
               <Popup/>
               </div>
             
-              </div >
+              </div>
               </div>
 
               <div className={classes.imageContainer}>
                 {/* <div>
                   <img src={BackgroundGear} alt="" className={classes.gearImage}/>
                 </div> */}
-              <div className={classes.bannerImage}>
+              <div>
               <img src={HandImg}
-                alt=""
-                className={classes.bannerImage} />
+                alt="Mobile IMG" />
               </div>
               </div>
 
