@@ -1,14 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
-// import './BannerImg.css';
-// import BannerImg from './lk_banner.png';
-import BannerHandImg from './bannerHandPic.png';
 import classes from '../BannerImg/Banner.module.scss';
 import PlayButtonIcon from '../../icons/playbuttonicon';
-// import DigitalVerificationIcon from '../../icons/DigitalVerificationIcon';
 import BackgroundGear from './BackgroundGear.png'
 import FlowerDesign from './FlowerDesign.png'
 import Popup from '../../utilities/Popup/Popup';
+import HandImg from "../BannerImg/handImg.png";
 
 const RequiredDocuments = () => {
 
@@ -40,7 +37,7 @@ const RequiredDocuments = () => {
                   <img src={BackgroundGear} alt="" className={classes.gearImage}/>
                 </div> */}
               <div className={classes.bannerImage}>
-              <img src={BannerHandImg}
+              <img src={HandImg}
                 alt=""
                 className={classes.bannerImage} />
               </div>

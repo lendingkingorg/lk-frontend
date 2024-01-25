@@ -20,27 +20,31 @@ import MainEmiComponent from '../MainEmiComponent/MainEmiComponent'
 import Footer from '../Footer/Footer'
 import BannerImg from '../BannerImg/BannerImg'
 import PartnersSlider from '../PartnersSlider/PartnersSlider'
-import OurTeam from '../OurTeam/OurTeam'
+// import OurTeam from '../OurTeam/OurTeam'
 import FrequencyAskedQuestions from '../FrequentlyAskedQuestions/FrequentlyAskedQuestions';
 import JoinUsKnowMore from '../JoinUsKnowMore/JoinUsKnowMore';
 import MobileApp from '../MobileApp/MobileApp';
+import CreditScore from '../CreditScore/CreditScore';
+import FormElement from "../FormElement/FormElement.js";
 
 
 function HomePage() {
     return (
         <div className="main-container">
+            <CreditScore/>
             <BannerImg/>
             <WhyLendingking/>
+            <PartnersSlider/>
             <SimpleApplicationProcess/>
             {/* <EmiCalculator/> */}
             <MainEmiComponent/>
             <RequiredDocuments/>
             <Testimonials/>
-            <PartnersSlider/>
-            <OurTeam/>
-            {/* <MobileApp/> */}
+            <MobileApp/>
             <JoinUsKnowMore/>
             <FrequencyAskedQuestions/>
+            <FormElement/>
+            {/* <OurTeam/> */}
             <Footer />
         </div>
     )

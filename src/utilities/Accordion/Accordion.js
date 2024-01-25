@@ -11,9 +11,8 @@ import classes from '../Accordion/Accordion.module.scss';
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
-  border: `1px solid ${theme.palette.divider}`,
   '&:not(:last-child)': {
-    borderBottom: 0,
+    borderBottom: '1px solid var(--www-tatanexarc-com-gull-gray-40, rgba(149, 158, 177, 0.40))',
   },
   '&::before': {
     display: 'none',
@@ -60,8 +59,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails sx={{backgroundColor:"aliceblue"}}>
           <Typography className={classes.answer} sx={{ fontFamily: "'Poppins', sans-serif" }}>
-          Tata nexarc Business Loans are unsecured / collateral-free, working capital loans at the best rates and turnaround times from a variety of banks and NBFCs - especially
-aimed to help emerging businesses on Tata nexarc solve their working capital related needs.
+            Tata nexarc Business Loans are unsecured / collateral-free, working capital loans at the best rates and turnaround times from a variety of banks and NBFCs - especially aimed to help emerging businesses on Tata nexarc solve their working capital related needs.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -71,10 +69,7 @@ aimed to help emerging businesses on Tata nexarc solve their working capital rel
         </AccordionSummary>
         <AccordionDetails sx={{backgroundColor:"aliceblue"}}>
           <Typography className={classes.answer} sx={{ fontFamily: "'Poppins', sans-serif" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -84,10 +79,7 @@ aimed to help emerging businesses on Tata nexarc solve their working capital rel
         </AccordionSummary>
         <AccordionDetails sx={{backgroundColor:"aliceblue"}}>
           <Typography className={classes.answer} sx={{ fontFamily: "'Poppins', sans-serif" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -97,10 +89,7 @@ aimed to help emerging businesses on Tata nexarc solve their working capital rel
         </AccordionSummary>
         <AccordionDetails sx={{backgroundColor:"aliceblue"}}>
           <Typography className={classes.answer} sx={{ fontFamily: "'Poppins', sans-serif" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails>
       </Accordion>

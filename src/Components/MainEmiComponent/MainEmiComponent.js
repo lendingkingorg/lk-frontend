@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './MainEmiComponent.scss';
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
+// import classes from "../MainEmiComponent/MainEmiComponent.module.scss";
 
 const formatCurrency = (value) => {
     return new Intl.NumberFormat('en-IN', {
@@ -91,8 +92,8 @@ const MainBox = () => {
                             />
                            <Box sx={{ width: 300 }}>
                                 <Slider
-                                    value={state.months}
-                                    onChange={handleMonthsChange}
+                                    value={state.amount}
+                                    onChange={handleAmountChange}
                                     aria-label="Loan Duration"
                                     valueLabelDisplay="auto"
                                     min={12}
@@ -136,8 +137,8 @@ const MainBox = () => {
                             />
                             <Box sx={{ width: 300 }}>
                                 <Slider
-                                    value={state.months}
-                                    onChange={handleMonthsChange}
+                                    value={state.interestRate}
+                                    onChange={handleInterestRateChange}
                                     aria-label="Loan Duration"
                                     valueLabelDisplay="auto"
                                     min={12}

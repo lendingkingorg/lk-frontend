@@ -1,0 +1,60 @@
+
+.container{
+display:flex;
+align-items: center;
+}
+
+.sentence{
+    display: flex;
+    gap:2%;
+}
+
+.bgImg{
+width: 100%;
+height: 73px;
+flex-shrink: 0;
+
+background: url(CreditScore.png) lightgray 50% / cover no-repeat;
+}
+
+.meterImg{
+    margin-top: 10px;
+    margin-left: 27px;
+}
+
+.heading{
+    color: var(--d-9-d-9-d-9, #FFF);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 26.4px */
+display: flex;
+margin-top: 20px;
+
+
+}
+
+.free{
+    color: var(--fefcff, #FEFCFF);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%;
+ }
+
+ .emoji{
+    width: 32px;
+height: 32px;
+flex-shrink: 0;
+display:flex;
+margin-top:20px;
+ }
+
+ .arrow{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -44px;
+    margin-right:44px;
+ }

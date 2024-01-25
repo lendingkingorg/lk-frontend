@@ -16,7 +16,7 @@ const RequiredDocuments = () => {
                 <div className={classes.point}><GreenBulletPoint/><div className={classes.sentence}>Business Type: All constitution</div></div>
                 <div className={classes.point}><GreenBulletPoint/><div className={classes.sentence}>Years in business: 2+</div></div>
                 <div className={classes.point}><GreenBulletPoint/><div className={classes.sentence}>Industry: All eligible industries</div></div>
-                <div>(see list of restricted industries)</div>
+                {/* <div>(see list of restricted industries)</div> */}
 
             </div>
         </div>
