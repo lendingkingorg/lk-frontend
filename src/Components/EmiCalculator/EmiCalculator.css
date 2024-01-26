@@ -3,8 +3,8 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
+
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,6 +13,8 @@ body {
 }
 
 .container {
+   
+  /* padding-top: 30rem; */
   text-align: center;
   background-color: #fff;
   padding: 20px;
@@ -24,6 +26,8 @@ body {
 
 h2 {
   color: #333;
+   
+  padding-top: 8%;
 }
 
 label {

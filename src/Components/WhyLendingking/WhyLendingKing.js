@@ -17,7 +17,7 @@ const WhyLendingKing = () => {
             <div className={classes.topTextAndDot}><div className={classes.textTop}><div><ErrorRedButton/></div>Compare loans from multiple lending partners</div></div>
 
               <div className={classes.bigTextContainer}>
-                <div className={classes.bigText}>Smart Choices, Smarter Vendors <div className={classes.secondPortion} styles={{color:'black'}}>Powering Your Success</div></div>
+                <div className={classes.bigText}>Smart Choices,Smarter Vendors <div className={classes.secondPortion} styles={{color:'black'}}>Powering Your Success</div></div>
                 </div>
 
                 <div className={classes.buttonContainer}>

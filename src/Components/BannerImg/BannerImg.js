@@ -20,7 +20,7 @@ const RequiredDocuments = () => {
                   <img src={FlowerDesign} className={classes.flower} alt=""/>
                 </div> */}
               <div className={classes.bannerText}>
-              <div><div className={classes.alignText}>Borrow <div className={classes.smartAndBig}> Smart </div>, Dream <div className={classes.smartAndBig}> Big </div></div> Your Financial Journey</div> Made Simple.
+              <div><div className={classes.alignText}>Borrow <div className={classes.smartAndBig}> Smart </div>,Dream <div className={classes.smartAndBig}> Big </div></div> Your Financial Journey</div> Made Simple.
               
               <div className={classes.caption}><div>Kyunki hum hain aapke har need ke liye</div> taiyaar!</div>
               

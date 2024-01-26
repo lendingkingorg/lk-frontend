@@ -27,6 +27,8 @@ import MobileApp from '../MobileApp/MobileApp';
 import CreditScore from '../CreditScore/CreditScore';
 import FormElement from "../FormElement/FormElement.js";
 import classes from "../Footer/Footer.module.scss"
+import EMICalculator from '../EmiCalculator/EmiCalculator';
+// import EMICalculator from '../EmiCalculator/EmiCalculator';
 
 
 function HomePage() {
@@ -41,7 +43,9 @@ function HomePage() {
             <PartnersSlider/>
             <SimpleApplicationProcess/>
             {/* <EmiCalculator/> */}
-            <MainEmiComponent/>
+            {/* <EMICalculator/> */}
+            {/* <MainEmiComponent/> */}
+            <EMICalculator/>
             <RequiredDocuments/>
             <Testimonials/>
             <MobileApp/>
