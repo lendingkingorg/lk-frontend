@@ -1,14 +1,71 @@
 
 .container{    
-display: flex;
-    width: 80%;
-    padding: 14px 16.91px 14px 14px;
+// display: flex;
+//     width: 80%;
+//     padding: 14px 16.91px 14px 14px;
+//     align-items: center;
+//     gap: 9.09px;
+//     /* border-radius: 10px; */
+//     background: var(--Blue, #0057FF);
+//     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.06);
+//     height: 73px ;
+//     margin-left: 10%;
+//     margin-top: 5%;
+}
+.formBox{
+    display: flex;
+    justify-content: center;
+    background-color: #0057FF;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0057FF;
     align-items: center;
-    gap: 9.09px;
-    /* border-radius: 10px; */
-    background: var(--Blue, #0057FF);
-    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.06);
-    height: 73px ;
-    margin-left: 10%;
-    margin-top: 5%;
+}
+
+.aling{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.formtxt2{
+    color: var(--www-tatanexarc-com-nero, #FFF);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 21px; /* 150% */
+}
+.formTxt{
+    color: var(--www-tatanexarc-com-nero, #FFF);
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 33.6px; /* 120% */
+}
+
+.but{
+
+    display: flex;
+    width: 100px;
+    height: 50px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 6px;
+background: var(--ffffff, #FFF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.btnTxt{
+    color: var(--Blue, #0057FF);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 33.6px; /* 168% */
 }
