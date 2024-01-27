@@ -24,7 +24,7 @@ const MobileApp = () => {
      <div className={classes.scanner}>
         <img src={Scanner} alt="" className="scannerImg"></img>
      </div>
-            </div>
+       </div>
 
      <div className={classes.mobile}>
         <img src={MobileAppPhone} alt="" className={classes.mobileImg}></img>

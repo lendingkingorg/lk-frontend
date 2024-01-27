@@ -122,3 +122,55 @@ align-items: flex-start;
 //   z-index: 0;
 //   top:-85px;
 // }
+
+@media (max-width: 768px) {
+    /* Align input fields vertically on small screens */
+.heroParent{
+    display: flex;
+    flex-direction: column;
+}
+.imageContainer{
+    margin: 0;
+    padding: 0;
+    margin-left: -15%;
+    transform: scale(.6);
+}
+    
+.bannerText{
+    color: var(--neutral, #20243A);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 183.333% */
+    // z-index: 1;
+    margin:0;
+    
+      
+    }
+.caption{
+    color: var(--575-b-6-d, #575B6D);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: -10%;
+    line-height: normal;
+}
+.buttonsOnBanner{
+    transform: scale(0.85);
+    margin-left: -5%;
+}
+.spantg{
+    // margin-left: -20%;
+}
+
+.flowerAndText{
+    margin-left: 1vw;
+    margin-top: 10vw;
+}
+
+  }
+  

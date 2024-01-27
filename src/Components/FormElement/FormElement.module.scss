@@ -20,6 +20,7 @@
     justify-content: space-evenly;
     background-color: #0057FF;
     align-items: center;
+    margin: 30px 0px 25px 0px;
 }
 
 .aling{
@@ -69,3 +70,24 @@ font-style: normal;
 font-weight: 500;
 line-height: 33.6px; /* 168% */
 }
+
+
+@media (max-width: 768px) {
+
+.formBox{
+
+    flex-direction: column;
+}
+
+.aling{
+    flex-direction:column;
+    gap: 0px;
+
+}
+
+.but{
+    margin-bottom: 10px;
+}
+}
+
+

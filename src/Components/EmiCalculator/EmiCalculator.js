@@ -23,16 +23,14 @@ const EMICalculator = () => {
   };
 
   return (
-
+<>
+<div className={classes.h}>Loan EMI Calculator</div>
 <div className={classes.EMIBox}>
     <div  className={classes.calBox}>
-
 <div className={classes.head}>
 Plan Your Finances Easily
-    
 </div>
 <div className={classes.subHead}>
-
 Use Our Simple Loan Calculator to See How Much You Can Afford.
 </div>
 
@@ -111,7 +109,7 @@ Use Our Simple Loan Calculator to See How Much You Can Afford.
     
     </div>
     </div>
-    </div>
+    </div></>
   );
 };
 

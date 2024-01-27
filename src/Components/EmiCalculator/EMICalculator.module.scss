@@ -5,7 +5,7 @@
 }
 
 .EMIBox{
-    margin-top: 40rem;
+    // margin-top: 40rem;
     display: flex;
     justify-content: space-around;
     background: var(--ebf-4-ff, #EBF4FF);
@@ -95,4 +95,54 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 padding-bottom: 10px;
+}
+.h{
+    color: var(--neutral, #20243A);
+    margin-top: 40rem;
+text-align: center;
+    // color: var(--neutral, #20243A);
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+@media (max-width: 768px) {
+.EMIBox{
+    margin: 10px;
+   
+    
+    flex-direction: column;
+    
+}
+.calBox{
+    width: fit-content;
+}
+
+.resBox{
+    transform: scale(0.8);
+    width: 370px;
+    margin-left: -3rem;
+}
+.head{
+    display: none;
+}
+.subHead{
+    display: none;
+}
+
+.h{
+    font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+padding-bottom: 20px;
+text-align: center;
+margin-top: 290%;
+}
+
 }

@@ -5,7 +5,7 @@
     border-bottom: 2px solid var(--www-tatanexarc-com-athens-gray, #ECEEF4);
     display: flex;
     /* margin-left: 0%; */
-    margin-top: 10%;
+    // margin-top: 10%;
     background-color: white;
     width: 100%;
     flex-direction: row;
@@ -27,7 +27,7 @@
     flex-direction: column;
     align-items: flex-start;
 
-    opacity: 0.7;
+    // opacity: 0.7;
 }
 
 .containerTwo{
@@ -133,4 +133,37 @@ flex-shrink: 0;
 .Backgroundscreen{
     background-image: url(Frame.png);
     background-repeat: repeat-x;
+}
+
+
+
+
+@media (max-width: 768px) {
+.containerOne{
+    padding-bottom: 20px;
+}
+    .containerThree{
+margin-left: -10%;
+
+    }
+
+    .secondFooter{
+        all:unset;
+    }
+.content{
+    // display: none;
+    margin-left: -65px;
+    padding: 0;
+}
+.fix{
+display: flex;
+}
+.containerFour{
+    display: none;
+}
+.main{
+    flex-direction: column;
+
+}
+
 }

@@ -82,3 +82,16 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 109.091% */
 }
+
+
+
+@media (max-width: 768px) {
+
+
+.bigBox{
+
+    display: none;
+
+}
+
+}

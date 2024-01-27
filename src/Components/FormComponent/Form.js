@@ -38,8 +38,8 @@ const FormComponent = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={{display: "flex",
-        gap: "30px"}} className={classes.aling}>
+    <form onSubmit={handleSubmit} style={{display: "flex"
+        }} className={classes.aling}>
       <TextField
         label="Business Name"
         variant="outlined"

@@ -58,3 +58,27 @@ margin-top:20px;
     margin-top: -44px;
     margin-right:44px;
  }
+
+ @media (max-width: 768px) {
+
+.heading{
+    font-size: 16px;
+}
+
+    .meterImg{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+    .sentence{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .free{
+        font-size: 16px;
+        margin-left: 2px;
+    }
+    
+ }

@@ -130,4 +130,45 @@ justify-content: center;
 height: 500px;
 }
 
+@media (max-width: 768px) {
 
+    .textTop{
+color: var(--575-b-6-d, #575B6D);
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+// line-height: 133%; /* 21.28px */
+}
+
+.bigText{
+font-size: 20px ;
+line-height: 25px;
+padding: 0;
+}
+.first{
+    padding: 0;
+    display: none;
+}
+.second{
+    display: none;
+}
+
+.buttonContainer{
+    transform: scale(0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.secondPortion{
+    font-size: 20px ;
+    color: black;
+    line-height: 20px;
+}
+.mobiles{
+    display: none ;
+}
+
+}

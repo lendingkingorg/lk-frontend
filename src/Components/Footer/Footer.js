@@ -22,7 +22,7 @@ const Footer = () => {
                     <div className={classes.imageTwo}><img src={AppStore} alt=""></img></div>
                 </div>
             </div>
-
+<span className={classes.fix}>
             <div className={classes.containerTwo}>
                 <div className={classes.heading}>Company</div>
                 <div className={classes.content}>
@@ -53,6 +53,7 @@ const Footer = () => {
             
             </div>
         </div>
+        </span>
             </div>
 
             <div className={classes.secondFooter}>

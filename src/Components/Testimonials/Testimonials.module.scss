@@ -168,3 +168,13 @@ font-weight: 500;
 line-height: 42px; /* 210% */
 margin-left: 30%;
 }
+@media (max-width: 768px) {
+
+.container{
+
+   display: none;
+}
+
+
+
+}

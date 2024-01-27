@@ -110,3 +110,16 @@ align-self: flex-start;
   padding-top: 30px;
   padding-bottom: 40px;
 }
+
+
+@media (max-width: 768px) {
+
+.container{
+
+background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+gap:20px
+}
+}

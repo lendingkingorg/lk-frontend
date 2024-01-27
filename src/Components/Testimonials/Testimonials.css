@@ -82,5 +82,9 @@ button:disabled {
     margin-top: 150px;
   }
 
+  .testimonials-container {
+padding:0 rem;
+  }
+
  
 }
