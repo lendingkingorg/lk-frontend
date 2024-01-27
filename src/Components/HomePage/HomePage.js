@@ -29,11 +29,11 @@ import FormElement from "../FormElement/FormElement.js";
 import classes from "../Footer/Footer.module.scss"
 import EMICalculator from '../EmiCalculator/EmiCalculator';
 // import EMICalculator from '../EmiCalculator/EmiCalculator';
-
+import { isMobile } from "react-device-detect";
 
 function HomePage() {
     return (
-        <div className="main-container">
+        <div style={{   overflowX:isMobile?"hidden":null }} className="main-container">
 
             <CreditScore/>
             <div className={classes.Backgroundscreen}>

@@ -132,14 +132,17 @@ flex-shrink: 0;
 }
 .Backgroundscreen{
     background-image: url(Frame.png);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
 }
 
-
+.fix{
+    display: flex;
+}
 
 
 @media (max-width: 768px) {
 .containerOne{
+    width: auto;
     padding-bottom: 20px;
 }
     .containerThree{
@@ -164,6 +167,9 @@ display: flex;
 .main{
     flex-direction: column;
 
+}
+.image{
+    margin-left: -40px;
 }
 
 }
