@@ -24,30 +24,6 @@ const Navbar = () => {
                     <div className={`bar ${isMobileMenuOpen ? 'open' : ''}`}></div>
                     <div className={`bar ${isMobileMenuOpen ? 'open' : ''}`}></div>
                 </div>
-
-                {/* Navigation links */}
-                <ul className={`nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
-                    <li>
-                        <NavLink to="/" exact activeClassName="active" >
-                            Home
-                        </NavLink>
-                    </li>
-                    {/* <li>
-                        <NavLink to="/about" activeClassName="active">
-                            About
-                        </NavLink>
-                    </li> */}
-                    {/* <li>
-                        <NavLink to="/contact" activeClassName="active">
-                            Contact Us
-                        </NavLink>
-                    </li> */}
-                    <li>
-                        <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSdoImOgYObnN_Mn0iJ-71eVvp37hUgCha581NEqwHQVwBJ_Yw/viewform?usp=send_form" activeClassName="active">
-                            Join Us
-                        </NavLink>
-                    </li>
-                </ul>
             </div>
         </nav>
     );

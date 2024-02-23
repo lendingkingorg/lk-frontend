@@ -17,21 +17,18 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import HomePage from './Components/HomePage/HomePage';
-// Sample components for Home, About, Contact, and Join pages
+import LoginForm from './Components/LoginForm/LoginForm';
+import ApplicationDetails from './ApplicationDetails/ApplicationDetails';
 const Home = () => <div> <HomePage/> </div>;
-// const About = () => <div>About</div>;
-// const Contact = () => <div>Contact Us</div>;
-const Join = () => <div>Join Us</div>;
 
 const App = () => {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} /> */}
-        <Route path="/join" element={<Join />} />
+        <Route path="/" element={<LoginForm/>} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/home/:id" element={<ApplicationDetails />} />
       </Routes>
     </Router>
   );
