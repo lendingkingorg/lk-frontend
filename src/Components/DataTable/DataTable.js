@@ -10,7 +10,7 @@ const DataTable = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://3.77.177.150:8080/get-all-user/');
+        const response = await fetch('http://lendingking-test.eu-central-1.elasticbeanstalk.com/get-all-user/');
         if (response.ok) {
           const data = await response.json();
           setData(data);

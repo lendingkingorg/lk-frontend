@@ -9,7 +9,7 @@ const LoginForm = () => {
   const navigate = useNavigate(); // Hook for navigation in React Router v6
   const fetchData = async () => {
     try {
-      const response = await fetch(`http://3.77.177.150:8080/admin-login/${password}/${username}`);
+      const response = await fetch(`http://lendingking-test.eu-central-1.elasticbeanstalk.com/admin-login/${password}/${username}`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

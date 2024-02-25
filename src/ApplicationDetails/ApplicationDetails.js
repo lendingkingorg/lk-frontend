@@ -23,7 +23,7 @@ const ApplicationDetails = () => {
 useEffect(() => {
   const fetchData = async () => {
     try {
-      const response = await fetch(`http://3.77.177.150:8080/get-user-applications/${userId}`);
+      const response = await fetch(`http://lendingking-test.eu-central-1.elasticbeanstalk.com/get-user-applications/${userId}`);
  
       if (!response.ok) {
         throw new Error('Network response was not ok');
