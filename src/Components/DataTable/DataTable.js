@@ -6,62 +6,19 @@ const DataTable = () => {
   const [data, setData] = useState([]);
   
   const navigate = useNavigate(); // Hook for navigation in React Router v6
-    // Dummy data for demonstration
-    const dummyData = [
-        {
-          "mobileNumber": 1234567890,
-          "name": "John Doe",
-          "email": "john.doe@example.com",
-          "pan": "ABCDE1234F",
-          "dob": "1990-01-01",
-          "gender": "Male",
-          "residentialPincode": 123456,
-          "residentialAddress": "123 Main St, Cityville",
-          "annualTurnover": 500000,
-          "yearsInCurrentBusiness": 5,
-          "businessPincode": 789012,
-          "businessAddress": "456 Business St, Townsville",
-          "businessRegisteredAs": "Private Limited",
-          "productCategory": "Electronics",
-          "natureOfBusiness": "Retail",
-          "businessRunBy": "Owner",
-          "requestedLoanAmount": 10000.0,
-          "loanDurationInMonths": 12
-        },
-        {
-          "mobileNumber": 9876543210,
-          "name": "Jane Smith",
-          "email": "jane.smith@example.com",
-          "pan": "FGHIJ5678K",
-          "dob": "1985-05-15",
-          "gender": "Female",
-          "residentialPincode": 567890,
-          "residentialAddress": "456 Oak St, Villagetown",
-          "annualTurnover": 700000,
-          "yearsInCurrentBusiness": 7,
-          "businessPincode": 123456,
-          "businessAddress": "789 Factory St, Industrialtown",
-          "businessRegisteredAs": "Proprietorship",
-          "productCategory": "Clothing",
-          "natureOfBusiness": "Wholesale",
-          "businessRunBy": "Owner",
-          "requestedLoanAmount": 15000.0,
-          "loanDurationInMonths": 24
-        }
-      ];
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('your_api_endpoint');
+        const response = await fetch('http://3.77.177.150:8080/get-all-user/');
         if (response.ok) {
           const data = await response.json();
-          setData(dummyData);
+          setData(data);
         } else {
           console.error('Failed to fetch data');
         }
       } catch (error) {
-        setData(dummyData);
+       // setData(dummyData);
         console.error('Error:', error);
       }
     };
